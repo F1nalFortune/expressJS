@@ -1,0 +1,27 @@
+<% include ./partials/nav.ejs %>
+<div class="container">
+  <h1 class="center">Courses</h1>
+  <table>
+    <thead>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Price</th>
+      <th>Length</th>
+      <th>Description</th>
+    </thead>
+    <tbody>
+      <% courses.forEach ( function(course) { %>
+        <tr>
+          <td>
+            <a href=<%= '/courses/' + course.id %> >Show</a>
+          </td>
+          <td><%= course.name %></td>
+          <td>$<%= course.base_price %></td>
+          <td><%= course.course_length %></td>
+          <td><%= course.description %></td>
+        </tr>
+      <% }); %>
+    </tbody>
+  </table>
+</div>
+

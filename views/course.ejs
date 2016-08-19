@@ -1,0 +1,36 @@
+<% include ./partials/nav.ejs %>
+<!-- <a href='/courses'>Back</a> -->
+<div class="container">
+  <% if(course) { %>
+    <h1 class="center"><%= course.name %></h1>
+  <% } else { %>
+    <h1> Course not found </h1>
+  <% } %>
+</div>
+<div class="container">
+<div class="course">
+  <div class="row">
+    <div class="col m4">
+      <p>  Price</p>
+    </div>
+    <div class="col m4">
+      <p>Time Frame</p>
+    </div>
+    <div class="col m4">
+    <p>Description</p>
+    </div>
+  <hr>
+  </div>
+  <div class="row">
+    <div class="col m4">
+      <p><strong>  $<%= course.base_price %></strong></p>
+    </div>
+    <div class="col m4">
+      <p><strong><%= course.course_length %></strong></p>
+    </div>
+    <div class="col m4">
+      <p><strong><%= course.description %></strong></p>
+    </div>
+  </div>
+</div>
+</div>

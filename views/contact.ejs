@@ -1,0 +1,29 @@
+<% var title = "Contact Us"; %>
+<% include ./partials/nav.ejs %>
+
+<br />
+<div class="container">
+<div>
+  <h3 class="center">  Contact Information </h3>
+  <p class="center"> Thestral dirigible plums, Viktor Krum hexed memory charm Animagus Invisibility Cloak three-headed Dog. Half-Blood Prince Invisibility Cloak cauldron cakes, hiya Harry! Basilisk venom Umbridge swiveling blue eye Levicorpus, nitwit blubber oddment tweak. Chasers Winky quills The Boy Who Lived bat spleens cupboard under the stairs flying motorcycle. Sirius Black Holyhead Harpies, you’ve got dirt on your nose. Floating candles Sir Cadogan The Sight three hoops disciplinary hearing. Grindlewald pig’s tail Sorcerer’s Stone biting teacup. Side-along dragon-scale suits Filch 20 points, Mr. Potter.
+  </p>
+  <br />
+</div>
+<hr>
+<div class="row">
+  <div class="col m6 example">
+    <p> Phone Number : (555) 555-5555 </p>
+    <p> Email: user@example.edu </p>
+    <p> Facebook: Fcebook.com/John_Doe </p>
+  </div>
+  <div class="col m6 ">
+    <br />
+    <form action='http://devpoint-ajax-example-server.herokuapp.com/api/v1/products' method='post'>
+      First Name: <input type='text' name='contact[first]'><br>
+      Last Name: <input type='text' name='contact[last]'><br>
+      Email Address: <input type='text' name='contact[email]'><br>
+      <input type='submit'>
+    </form>
+  </div>
+</div>
+</div>
