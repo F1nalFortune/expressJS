@@ -9,28 +9,45 @@
 </div>
 <div class="container">
 <div class="course">
-  <div class="row">
-    <div class="col m4">
+  <div class="row tabble" style="margin-left: 10%">
+    <div class="col m2">
       <p>  Price</p>
     </div>
-    <div class="col m4">
+    <div class="col m2">
       <p>Time Frame</p>
     </div>
-    <div class="col m4">
-    <p>Description</p>
+    <div class="col m2">
+      <p>Description</p>
     </div>
-  <hr>
+    <div class="col m2">
+      <p>Instructor</p>
+    </div>
+    <div class="col m2">
+      <p>Rating</p>
+    </div>
   </div>
-  <div class="row">
-    <div class="col m4">
+  <hr>
+  <div class="row tabble" style="margin-left: 10%">
+    <div class="col m2">
       <p><strong>  $<%= course.base_price %></strong></p>
     </div>
-    <div class="col m4">
+    <div class="col m2">
       <p><strong><%= course.course_length %></strong></p>
     </div>
-    <div class="col m4">
+    <div class="col m2">
       <p><strong><%= course.description %></strong></p>
+    </div>
+    <div class="col m2">
+      <p><strong><%= course.instructor %></strong></p>
+    </div>
+    <div class="col m2">
+      <p><strong><%= course.rating %></strong></p>
     </div>
   </div>
 </div>
+</div>
+
+<div class="container">
+  <div class="row">
+  </div>
 </div>

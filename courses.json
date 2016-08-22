@@ -1,7 +1,7 @@
 [
-  {"id":1, "name":"Math", "base_price":4000, "course_length":"12 weeks", "description":"Algebra, Trigonomics, Calc..."},
-  {"id":2, "name":"History", "base_price":4000, "course_length":"12 weeks", "description":"Holocaust, Mayan Empire, Ancient Egypt"},
-  {"id":3, "name":"Science", "base_price":4000, "course_length":"12 weeks", "description":"Avogodro's Number, Table of Elements"},
-  {"id":4, "name":"Advertising", "base_price":4000, "course_length":"12 weeks", "description":"Billboards, radio add, internet"},
-  {"id":5, "name":"Economics", "base_price":4000, "course_length":"12 weeks", "description":"Market shares, Supply and Demand"}
+  {"id":1, "name":"Math", "base_price":4000, "course_length":"12 weeks", "description":"Algebra, Trigonomics, Calc...", "instructor": "Mr. Petoch", "rating": " * * * * * ", "student": "Brian", "review": "great class - homework load is bearable and the quizzes/tests were always prepped for."},
+  {"id":2, "name":"History", "base_price":4000, "course_length":"12 weeks", "description":"Holocaust, Mayan Empire, Ancient Egypt", "instructor": "Mr. Antonetti", "rating": " * * * * ", "student":"John", "review": "Teacher did not have control of class mainly, but the course material was easily understood."},
+  {"id":3, "name":"Science", "base_price":4000, "course_length":"12 weeks", "description":"Avogodro's Number, Table of Elements", "instructor": "Mr. Footit", "rating": "* * * * * ", "name":"Charlie", "review": "Quiz/test prep was not great and homework load was all too much. Required class for graduation :/"},
+  {"id":4, "name":"Advertising", "base_price":4000, "course_length":"12 weeks", "description":"Billboards, radio add, internet", "instructor": "Mr. Rossi", "rating": " * * * * "},
+  {"id":5, "name":"Economics", "base_price":4000, "course_length":"12 weeks", "description":"Market shares, Supply and Demand", "instructor": "Professor Li", "rating": " * * * * "}
 ]

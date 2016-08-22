@@ -1,5 +1,9 @@
 @import 'materialize.min.css';
 
+.tabble{
+  margin-left:10% !important;
+}
+
 .linkzor{
   padding-left: 100px;
 }

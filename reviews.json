@@ -1,0 +1,10 @@
+[
+  {"id":1, "name":"Brian", "GPA": 3.0, "review": "great class - homework load is bearable and the quizzes/tests were always prepped for."}
+  {"id":2, "name":"John", "GPA": 3.0, "review": "Teacher did not have control of class mainly, but the course material was easily understood."}
+  {"id":3, "name":"Charlie", "GPA": 2.5, "review": "Quiz/test prep was not great and homework load was all too much. Required class for graduation :/"}
+  {"id":4, "name":"Dean", "GPA": 2.5, "review": "Great class - highly suggested"}
+  {"id":5, "name":"Edwin", "GPA": 3.0, "review": "Would like to take again :/"}
+  {"id":6, "name":"Edwin", "GPA": 3.0, "review": "Tremendous"}
+
+
+]
